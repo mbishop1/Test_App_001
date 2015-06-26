@@ -14,7 +14,14 @@
 
 @implementation ViewController
 - (IBAction)helloWorldAction:(UIButton *)sender {
-    self.helloWorldLabel.text = @"Hello World";
+    if ([self.helloWorldLabel.text  isEqual: @"Hello World"]) {
+        self.helloWorldLabel.text = @"Stop deleting me";
+    }
+    else {
+        self.helloWorldLabel.text = @"Hello World";
+    }
+        
+
 }
 
 - (void)viewDidLoad {
