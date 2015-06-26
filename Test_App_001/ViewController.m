@@ -9,10 +9,14 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *helloWorldLabel;
 
 @end
 
 @implementation ViewController
+- (IBAction)helloWorldAction:(UIButton *)sender {
+    self.helloWorldLabel.text = @"Hellow World";
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
