@@ -31,6 +31,9 @@
                                     <action selector="helloWorldAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5c5-8T-Y7O"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QtG-44-Xvo">
+                                <rect key="frame" x="185" y="389" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
