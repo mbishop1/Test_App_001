@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) IBOutlet UILabel *helloWorldLabel;
 
 @end
 
