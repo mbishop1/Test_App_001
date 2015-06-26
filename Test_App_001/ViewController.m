@@ -15,7 +15,7 @@
 
 @implementation ViewController
 - (IBAction)helloWorldAction:(UIButton *)sender {
-    self.helloWorldLabel.text = @"Hellow World";
+    self.helloWorldLabel.text = @"Hello World";
 }
 
 - (void)viewDidLoad {
